@@ -100,7 +100,7 @@ ul { list-style: none; }
 .hero-title { font-family: var(--font-display); font-size: clamp(46px, 7.5vw, 92px); font-weight: 900; line-height: 1; letter-spacing: 4px; text-shadow: 0 6px 30px rgba(0,0,0,.35); }
 .hero-sub { color: #fff; font-family: var(--font-display); font-size: clamp(18px, 2.4vw, 28px); font-weight: 700; line-height: 1.35; margin: 16px 0 26px; text-transform: uppercase; letter-spacing: 1px; }
 .hero-date { display: inline-block; background: var(--gold); color: var(--teal-900); font-weight: 700; font-size: clamp(15px, 1.7vw, 18px); padding: 8px 22px; border-radius: 10px; box-shadow: 0 8px 24px rgba(245,185,21,.35); }
-.hero-theme { margin: 24px 0 30px; font-size: clamp(14px, 1.4vw, 16px); line-height: 1.8; max-width: 600px; color: #e6f0f2; }
+.hero-theme { margin: 24px 0 30px; font-size: clamp(15px, 1.6vw, 19px); line-height: 1.8; max-width: 680px; color: #e6f0f2; }
 .theme-label { display: inline-block; background: rgba(245,185,21,.18); color: var(--gold); border: 1px solid var(--gold); font-size: 12px; font-weight: 600; padding: 2px 12px; border-radius: 20px; margin-right: 8px; letter-spacing: 1px; text-transform: uppercase; }
 .hero-theme strong { color: #fff; }
 .hero-btns { display: flex; flex-wrap: wrap; gap: 10px; }
