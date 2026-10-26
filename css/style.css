@@ -409,6 +409,8 @@ h2 { font-family: var(--font-display); font-size: clamp(28px, 4vw, 44px); font-w
 .c-ico { font-size: 30px; margin-bottom: 10px; }
 .contact-card h3 { color: var(--teal-900); font-size: 19px; margin-bottom: 10px; }
 .contact-card p { color: #3b4a51; font-size: 14.5px; margin-bottom: 16px; }
+.contact-card .c-mail { color: var(--teal-700); font-weight: 600; word-break: break-all; }
+.contact-card .c-mail:hover { color: var(--gold-dark); }
 
 /* ---------- Footer ---------- */
 .footer { background: var(--teal-900); color: #b7cdd2; padding-top: 70px; font-size: 14px; }
@@ -423,6 +425,8 @@ h2 { font-family: var(--font-display); font-size: clamp(28px, 4vw, 44px); font-w
 .footer li a:hover { color: var(--gold); padding-left: 4px; }
 .footer li a { transition: .25s; }
 .f-date { color: var(--gold); font-weight: 600; margin-top: 10px; }
+.f-mail { margin-top: 6px; word-break: break-all; }
+.f-mail::before { content: "✉ "; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.1); padding: 18px 0; font-size: 12.5px; }
 .footer-bottom .container { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 .dev-credit { color: var(--gold); font-weight: 600; }
