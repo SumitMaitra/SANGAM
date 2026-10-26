@@ -325,6 +325,9 @@ h2 { font-family: var(--font-display); font-size: clamp(28px, 4vw, 44px); font-w
 .person-card.big { max-width: 360px; margin: 0 auto; padding: 32px; }
 .avatar { width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 14px; background: linear-gradient(135deg, var(--teal-700), var(--teal-900)); color: var(--gold); display: grid; place-items: center; font-family: var(--font-display); font-weight: 800; font-size: 22px; border: 3px solid var(--gold); }
 .person-card.big .avatar { width: 90px; height: 90px; font-size: 28px; }
+.avatar:has(img) { width: 110px; height: 110px; overflow: hidden; background: #fff; }
+.person-card.big .avatar:has(img) { width: 140px; height: 140px; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .person-card h4 { font-size: 15.5px; color: var(--teal-900); line-height: 1.4; }
 .person-card.big h4 { font-size: 19px; }
 .person-card p { font-size: 13.5px; color: var(--muted); line-height: 1.5; margin-top: 4px; }
